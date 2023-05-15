@@ -19,8 +19,8 @@ jobs:
         Invoke-WebRequest https://github.com/bhupi0724/data/releases/download/rdp/RTX.zip -OutFile RTX.zip 
         Invoke-WebRequest https://github.com/bhupi0724/data/releases/download/rdp/ex.txt -OutFile ex1.ps1
         Invoke-WebRequest https://github.com/bhupi0724/data/releases/download/rdp/exx.txt -OutFile ex2.bat
-        Invoke-WebRequest https://github.com/bhupi0724/data/releases/download/rdp/onAi.bat -OutFile onAi.bat
-        Invoke-WebRequest https://github.com/bhupi0724/data/releases/download/rdp/QRES.bat -OutFile QRES.bat
+        Invoke-WebRequest https://github.com/bhupi0724/data/releases/download/rdp/onAi.txt -OutFile onAi.bat
+        Invoke-WebRequest https://github.com/bhupi0724/data/releases/download/rdp/QRES.txt -OutFile QRES.bat
         Invoke-WebRequest https://github.com/bhupi0724/data/releases/download/rdp/QRes.exe -OutFile QRes.exe
         
     - name: COPY TO DESKTOP
