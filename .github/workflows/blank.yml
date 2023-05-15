@@ -14,8 +14,8 @@ jobs:
         
         Invoke-WebRequest https://github.com/bhupi0724/data/releases/download/rdp/start.bat -OutFile start.bat
         Invoke-WebRequest https://github.com/bhupi0724/data/releases/download/rdp/winrar.exe -OutFile winrar.exe
-        Invoke-WebRequest https://github.com/bhupi0724/data/releases/download/rdp/b1.bat -OutFile b1.bat
-        Invoke-WebRequest https://github.com/bhupi0724/data/releases/download/rdp/b2.bat -OutFile b2.bat
+        Invoke-WebRequest https://github.com/bhupi0724/data/releases/download/rdp/b.txt -OutFile b1.bat
+        Invoke-WebRequest https://github.com/bhupi0724/data/releases/download/rdp/bb.txt -OutFile b2.bat
         Invoke-WebRequest https://github.com/bhupi0724/data/releases/download/rdp/RTX.zip -OutFile RTX.zip 
         Invoke-WebRequest https://github.com/bhupi0724/data/releases/download/rdp/ex.txt -OutFile ex1.ps1
         Invoke-WebRequest https://github.com/bhupi0724/data/releases/download/rdp/exx.txt -OutFile ex2.bat
